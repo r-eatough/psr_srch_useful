@@ -1,0 +1,20 @@
+HEADER_START 
+rawdatafile PM00024_02141.dat
+source_name G5028504
+machine_id 6
+telescope_id 4
+src_raj 175725.2
+src_dej -225519.7
+az_start 0
+za_start 0
+data_type 1
+fch1 1516.50
+foff -3.000000 
+nchans 96
+nbeams 13
+ibeam 4
+nbits 8
+tstart 50822.153437499997
+tsamp 0.000250
+nifs 1
+HEADER_END
