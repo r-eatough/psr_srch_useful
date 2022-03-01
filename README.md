@@ -11,6 +11,8 @@ Compile: gcc -lm generate_header.c -o generate_header
 
 Usage: ./generate_header ascii_header_filename
 
+Note. the ascii header format should match the example format precisely.
+
                                   generate_aclist.c
 
 Create sigproc trial acceleration and jerk lists using methods described in ...
