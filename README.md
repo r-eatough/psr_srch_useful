@@ -22,7 +22,7 @@ Usage: ./generate_aclist
 
                                   binary_psr_periods.c
 
-It can be useful to simulate binary pulsars in order to establish the search parameters required to detect them. This program outputs the Doppler modulated spin period in addition to the line of sight velocity, acceleration and jerk for any hypothetical binary.  Currently the binary parameters are hard coded to those seen in PSR J0737--3039A/B.
+It can be useful to simulate changing pulse period seen in binary pulsars in order to establish the search parameters required to detect them - amongst other things. This program outputs the Doppler modulated spin period in addition to the line of sight velocity, acceleration and jerk for any hypothetical binary.  Currently the binary and observational parameters are hard coded to an observation of one full orbit of PSR J0737-3039A. 
 
 Compile: gcc binary_psr_periods.c -lm -o binary_psr_periods
 
