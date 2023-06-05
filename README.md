@@ -1,5 +1,5 @@
 # psr_srch_useful
-Useful progs relating to pulsar searching ...
+Useful progs relating to searching for (binary) pulsars ...
 
 
                                   generate_header.c
