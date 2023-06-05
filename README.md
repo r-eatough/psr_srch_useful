@@ -17,4 +17,10 @@ Note. the ascii header format should match the example ascii header (PM0024_0214
 
                                   generate_aclist.c
 
-Create sigproc trial acceleration and jerk lists using methods described in ...
+Program to generate a sigproc style aclist using the method outlined in Camilo at al., 2000, ApJ, 535, 975C (spin frequency drifts less than one spectral bin for incorrect trial), or the time domain procedure described in Eatough et al., 2013, MNRAS, 431, 292E (acceptable time domain pulse smearing of 4*t_samp for acceleration that lies exactly in between trials).
+
+Compile:  gcc generate_aclist.c -lm -o generate_aclist
+
+Usage: ./generate_aclist
+
+
