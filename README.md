@@ -14,6 +14,10 @@ Compile: gcc -lm generate_header.c -o generate_header
 Usage: ./generate_header ascii_header_filename
 
 Note. the ascii header format should match the example ascii header (PM0024_02141_example.asciiheader) format precisely.
+                                  
+                                  binary_psr_periods.c
+                                  
+Program to output the Doppler modulated pulsar spin period of a hypothetical binary pulsar.   
 
                                   generate_aclist.c
 
