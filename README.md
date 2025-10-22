@@ -16,7 +16,7 @@ Note. the ascii header format should match the example ascii header (PM0024_0214
 
 ## generate DM trial list
 
-TBC
+TBD
 
 ## generate acceleration (and jerk) trial lists
                                   
