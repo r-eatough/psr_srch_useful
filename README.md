@@ -1,6 +1,8 @@
 # psr_srch_useful
 Useful progs relating to searching for (binary) pulsars ...
 
+## generate filterbank header
+
                                   generate_header.c
 
 Convert an ascii sigproc filterbank header into binary format. This can then be combined
@@ -11,6 +13,12 @@ Compile: gcc -lm generate_header.c -o generate_header
 Usage: ./generate_header ascii_header_filename
 
 Note. the ascii header format should match the example ascii header (PM0024_02141_example.asciiheader) format precisely.
+
+## generate DM trial list
+
+TBC
+
+## generate acceleration (and jerk) trial lists
                                   
                                   generate_aclist.c
 
@@ -19,6 +27,8 @@ Program to generate a sigproc style acceleration and jerk trial lists using the 
 Compile:  gcc generate_aclist.c -lm -o generate_aclist
 
 Usage: ./generate_aclist
+
+## print Doppler modulated spin period
 
                                   binary_psr_periods.c
 
