@@ -1,4 +1,4 @@
-# psr_srch_useful
+# pulsar_search_useful
 Useful progs relating to searching for (binary) pulsars ...
 
 ## generate filterbank header
