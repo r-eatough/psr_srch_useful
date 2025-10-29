@@ -1,5 +1,5 @@
 # pulsar_search_useful
-Useful progs relating to searching for (binary) pulsars ...
+Useful ancillary programs relating to searching for pulsars ...
 
 ## generate filterbank header
 
